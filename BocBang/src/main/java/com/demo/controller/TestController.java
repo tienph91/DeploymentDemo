@@ -12,7 +12,7 @@ public class TestController {
 
     @GetMapping("/all")
     public ResponseEntity<Object> findLocationById() {
-        ResponseEntity<Object> object = new ResponseEntity<Object>(200, HttpStatus.OK);
+        ResponseEntity<Object> object = new ResponseEntity<Object>(300, HttpStatus.OK);
         return object;
     }
 }
